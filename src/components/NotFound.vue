@@ -1,7 +1,7 @@
 <template>
   <div class="general">
     <router-link to="/" class="img-canseo">
-      <img src="http://localhost:8081/uploads/Canseo-login.png" alt="CanSeo">
+      <img src="https://canseo-vue.vercel.app/uploads/Canseo-login.png" alt="CanSeo">
     </router-link>
     <h1>404 - Página no encontrada</h1>
     <p>La página que estás buscando no existe.</p>

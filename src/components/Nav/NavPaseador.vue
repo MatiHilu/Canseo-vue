@@ -5,16 +5,16 @@
     <div v-if="isMobile">
       <div class="menu-mobile-box">
         <router-link to="/reservas-paseador" class="navbar-brand img-canseo-mobile">
-          <img src="http://localhost:8081/uploads/CanSeo-Paseador.png" alt="CanSeo Paseador">
+          <img src="https://canseo-vue.vercel.app/uploads/CanSeo-Paseador.png" alt="CanSeo Paseador">
         </router-link>
         <div @click="toggleMobileMenu" class="menu-button">
-          <img class="icon" src="http://localhost:8081/uploads/imagen-hamburguesa.png" alt="Menú Hamburguesa">
+          <img class="icon" src="https://canseo-vue.vercel.app/uploads/imagen-hamburguesa.png" alt="Menú Hamburguesa">
         </div>
       </div>
       
       <div :class="{ 'mobile-menu': true, 'open': isMobileMenuOpen }">
         <div @click="toggleMobileMenu" class="close-button">
-          <img class="icon" src="http://localhost:8081/uploads/imagen-cerrar.png" alt="Cerrar Menú">
+          <img class="icon" src="https://canseo-vue.vercel.app/uploads/imagen-cerrar.png" alt="Cerrar Menú">
         </div>
         <!-- Contenido del menú -->
         <div class="navbar-nav mr-auto">
@@ -38,7 +38,7 @@
   <nav class="navbar navbar-expand navbar-light" v-else>
       <!-- Contenido del menú -->
       <router-link to="/reservas-paseador" class="navbar-brand">
-        <img src="http://localhost:8081/uploads/CanSeo-Paseador.png" alt="CanSeo">
+        <img src="https://canseo-vue.vercel.app/uploads/CanSeo-Paseador.png" alt="CanSeo">
       </router-link>
       <div class="navbar-nav mr-auto mtop-10">
             <li class="nav-item">

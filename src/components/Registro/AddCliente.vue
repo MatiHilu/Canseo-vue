@@ -5,7 +5,7 @@
       </div>
       <div class="registro">
         <h1>Registro</h1>
-        <img class="canseo-img" src="http://localhost:8081/uploads/Canseo-registro.png" alt="CanSeo ">
+        <img class="canseo-img" src="https://canseo-vue.vercel.app/uploads/Canseo-registro.png" alt="CanSeo ">
         <form @submit.prevent="agregarCliente">
           <div class="form-group">
             <input type="text" id="nombre" v-model="nombre" required placeholder="Nombre">
@@ -20,8 +20,8 @@
             <div class="password-input">
               <input id="password" v-model="password" :type="passwordFieldType" required placeholder="Contraseña">
               <span type="button" @click="togglePasswordVisibility">
-                <img v-if="showPassword" src="http://localhost:8081/uploads/show-password.png" alt="Mostrar contraseña">
-                <img v-else src="http://localhost:8081/uploads/hide-password.png" alt="Ocultar contraseña">
+                <img v-if="showPassword" src="https://canseo-vue.vercel.app/uploads/show-password.png" alt="Mostrar contraseña">
+                <img v-else src="https://canseo-vue.vercel.app/uploads/hide-password.png" alt="Ocultar contraseña">
               </span>
             </div>
           </div>

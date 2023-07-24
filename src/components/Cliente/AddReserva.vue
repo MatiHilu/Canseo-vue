@@ -12,7 +12,7 @@
         <div class="input-with-icon">
           <input style="width: 100% !important;" type="text" id="fecha-reserva" v-model="fecha" required>
           <span class="input-icon">
-            <img src="http://localhost:8081/uploads/calendar.png" alt="Ícono de fecha">
+            <img src="https://canseo-vue.vercel.app/uploads/calendar.png" alt="Ícono de fecha">
           </span>
         </div>
       </div>
@@ -25,7 +25,7 @@
             <option v-for="hour in availableHours" :key="hour" :value="hour">{{ hour }}</option>
           </select>
           <span class="input-icon">
-            <img src="http://localhost:8081/uploads/clock.png" alt="Ícono de hora">
+            <img src="https://canseo-vue.vercel.app/uploads/clock.png" alt="Ícono de hora">
           </span>
         </div>
       </div>

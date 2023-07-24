@@ -4,7 +4,7 @@
       {{ message }}
     </div>
     <div class="login">
-      <img class="canseo-img" src="http://localhost:8081/uploads/Canseo-login.png" alt="CanSeo">
+      <img class="canseo-img" src="https://canseo-vue.vercel.app/uploads/Canseo-login.png" alt="CanSeo">
       <form @submit.prevent="login">
         <div class="form-group">
           <input type="email" id="email" v-model="email" required placeholder="Email" autocomplete="username">
@@ -12,8 +12,8 @@
         <div class="form-group password-input">
           <input id="password" v-model="password" :type="passwordFieldType" required placeholder="Contraseña" autocomplete="current-password">
           <span type="button" @click="togglePasswordVisibility">
-            <img v-if="showPassword" src="http://localhost:8081/uploads/show-password.png" alt="Mostrar contraseña">
-            <img v-else src="http://localhost:8081/uploads/hide-password.png" alt="Ocultar contraseña">
+            <img v-if="showPassword" src="https://canseo-vue.vercel.app/uploads/show-password.png" alt="Mostrar contraseña">
+            <img v-else src="https://canseo-vue.vercel.app/uploads/hide-password.png" alt="Ocultar contraseña">
           </span>
         </div>
         <button type="submit">Iniciar</button>

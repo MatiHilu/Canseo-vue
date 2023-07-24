@@ -11,24 +11,24 @@
           <label for="current-password">Contraseña Actual:</label>
           <input id="current-password" v-model="currentPassword" :type="currentPasswordFieldType" required placeholder="Contraseña actual">
           <span type="button" @click="toggleCurrentPasswordVisibility">
-            <img v-if="showCurrentPassword" src="http://localhost:8081/uploads/show-password.png" alt="Mostrar contraseña">
-            <img v-else src="http://localhost:8081/uploads/hide-password.png" alt="Ocultar contraseña">
+            <img v-if="showCurrentPassword" src="https://canseo-vue.vercel.app/uploads/show-password.png" alt="Mostrar contraseña">
+            <img v-else src="https://canseo-vue.vercel.app/uploads/hide-password.png" alt="Ocultar contraseña">
           </span>
         </div>
         <div class="form-group password-input">
           <label for="new-password">Nueva Contraseña:</label>
           <input id="new-password" v-model="newPassword" :type="newPasswordFieldType" required placeholder="Nueva contraseña">
           <span type="button" @click="toggleNewPasswordVisibility">
-            <img v-if="showNewPassword" src="http://localhost:8081/uploads/show-password.png" alt="Mostrar contraseña">
-            <img v-else src="http://localhost:8081/uploads/hide-password.png" alt="Ocultar contraseña">
+            <img v-if="showNewPassword" src="https://canseo-vue.vercel.app/uploads/show-password.png" alt="Mostrar contraseña">
+            <img v-else src="https://canseo-vue.vercel.app/uploads/hide-password.png" alt="Ocultar contraseña">
           </span>
         </div>
         <div class="form-group password-input">
           <label for="confirm-password">Confirmar Contraseña:</label>
           <input id="confirm-password" v-model="confirmPassword" :type="confirmPasswordFieldType" required placeholder="Confirmar contraseña">
           <span type="button" @click="toggleConfirmPasswordVisibility">
-            <img v-if="showConfirmPassword" src="http://localhost:8081/uploads/show-password.png" alt="Mostrar contraseña">
-            <img v-else src="http://localhost:8081/uploads/hide-password.png" alt="Ocultar contraseña">
+            <img v-if="showConfirmPassword" src="https://canseo-vue.vercel.app/uploads/show-password.png" alt="Mostrar contraseña">
+            <img v-else src="https://canseo-vue.vercel.app/uploads/hide-password.png" alt="Ocultar contraseña">
           </span>
         </div>
         <button type="submit">Guardar Cambios</button>
